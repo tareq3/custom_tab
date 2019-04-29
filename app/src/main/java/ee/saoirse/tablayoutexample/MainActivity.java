@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.tabLayout = findViewById(R.id.tabLayout);
 
-        tabLayout.addTab(tabLayout.newTab().setText("First"));
-        tabLayout.addTab(tabLayout.newTab().setText("Second"));
-        tabLayout.addTab(tabLayout.newTab().setText("Third"));
+
+
     }
 }
