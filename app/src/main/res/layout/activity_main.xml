@@ -41,11 +41,12 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="37dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/tab_layout_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:text="Tab2"
+            android:text="Top Seller"
            />
 
         <com.google.android.material.tabs.TabItem
@@ -76,29 +77,25 @@
             android:layout_height="26dp"
 
 
-            android:text="Tab2" />
+            android:text="Top Collecter" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabItem3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:text="Tab2" />
+            android:text="Top Checker" />
 
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabItem4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
-            android:text="Tab2" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabItem5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:text="Tab2" />
     </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp">
+
+    </FrameLayout>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
